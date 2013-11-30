@@ -1,8 +1,8 @@
 {
-  "name": "signal-master",
-  "version": "0.0.1",
+  "name": "visualmeetingserver",
+  "version": "0.0.1-1",
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "git@github.com:andyet/signal-master.git"
   },
   "description": "Mind-meldification for teams",
@@ -16,5 +16,12 @@
     "yetify": "0.0.1",
     "socket.io": ""
   },
-  "main": "server.js"
+  "main": "server.js",
+  "subdomain": "visualmeetingserver",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
 }
